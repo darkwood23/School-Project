@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    color: green;
+    margin-bottom: 0%;
+}
+
+.p-tag {
+    margin-top: 0%;
+    color: grey;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+
+.call-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 1.2rem;
+}
+
+.contact {
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.phone {
+    margin-top: 1.3rem;
+    margin-bottom: 0%;
+}
+
+.email {
+    margin-top: 2%;
+}
+
+.location {
+    display: flex;
+}
+
+.location-icon {
+    margin-top: 0.4rem;
+    width: 60px;
+    height: 70px;
+}
+
+.address {
+    margin-top: 2.2rem;
+    font-size: large;
+    color: green;
+    font-weight: 500;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    margin-top: 2rem;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#sub-menu li {
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid snow;
+    border-radius: 10%;
+    text-align: center;
+    display: block;
+}
+
+#sub-menu li:hover {
+    opacity: 0.5;
+}
+
+#sub-menu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.admissions:hover ul#sub-menu{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+}
+
+.img-text img {
+    width: 99%;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.img-text p {
+    text-align: center;
+    line-height: 30rem;
+    font-size: 50px;
+    color: green;
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    margin-left: 17rem;
+    margin-right: 18rem;
+}
+
+.footer h1 {
+    text-align: center;
+    color: green;
+    font-size: 3rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: green;
+}
+
+.footer p {
+    font-size: 1.5rem;
+}
+
+a:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.last-footer {
+    background-color: grey;
+    color: black;
+    padding: 7px;
+    text-align: center;
+}
